@@ -12,6 +12,25 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-library zxbase_model;
+/// Minimalistic token parsing.
+/// Device just needs to be aware of expiration date.
+/// String token structure: header.payload.signature
+/// Fields are base64url encoded jsons.
 
-export 'src/token.dart';
+import 'dart:convert';
+import 'dart:typed_data';
+
+class Token {
+  Token.fromString(String token) {
+    var fields = token.split('.');
+
+    Uint8List bin = base64Url.decode(fields[1]);
+    String str = utf8.decode(bin);
+    Map<String, dynamic> json = jsonDecode(str);
+
+    exp = DateTime.fromMillisecondsSinceEpoch(json['exp']).toUtc();
+    assert(exp.isUtc);
+  }
+
+  late DateTime exp;
+}
