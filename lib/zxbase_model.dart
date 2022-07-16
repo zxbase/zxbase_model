@@ -14,4 +14,5 @@
 
 library zxbase_model;
 
+export 'src/identity.dart';
 export 'src/token.dart';

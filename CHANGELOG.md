@@ -1,3 +1,5 @@
 ## 1.0.0
 
-- TBD.
+- Models:
+  - Identity v1 and v2.
+  - Token.

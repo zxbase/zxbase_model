@@ -7,7 +7,9 @@ Zxbase models.
 
 ## Features
 
-* TBD
+- Models:
+  - Identity v1 and v2.
+  - Token.
 
 ## Getting started
 In _pubspec.yaml_:
@@ -24,4 +26,5 @@ import 'package:zxbase_model/zxbase_model.dart';
 ## Usage
 
 Check examples in test files:
-  * TBD
+  - test/identity_test.dart
+  - test/token_test.dart
