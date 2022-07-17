@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:zxbase_crypto/zxbase_crypto.dart';
-import 'package:cryptography/cryptography.dart';
 
 class Identity {
   // initialize with device Id and public Ed25519 key
