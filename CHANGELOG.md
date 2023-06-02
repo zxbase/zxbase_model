@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Dart 3 SDK.
+
 ## 1.0.1
 
 - Remove the import of cryptography package.
