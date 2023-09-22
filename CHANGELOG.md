@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Update UUID version to 4.0.0.
+
 ## 1.0.2
 
 - Dart 3 SDK.
