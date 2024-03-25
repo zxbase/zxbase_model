@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-/// Identity v1 and v2.
+// Identity v1 and v2.
 
 import 'dart:convert';
 import 'dart:typed_data';

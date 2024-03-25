@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-/// Minimalistic token parsing.
-/// Device just needs to be aware of expiration date.
-/// String token structure: header.payload.signature
-/// Fields are base64url encoded jsons.
+// Minimalistic token parsing.
+// Device just needs to be aware of expiration date.
+// String token structure: header.payload.signature
+// Fields are base64url encoded jsons.
 
 import 'dart:convert';
 import 'dart:typed_data';
