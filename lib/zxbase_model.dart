@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-library zxbase_model;
+library;
 
 export 'src/identity.dart';
 export 'src/token.dart';
